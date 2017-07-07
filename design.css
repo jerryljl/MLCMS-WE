@@ -1,0 +1,40 @@
+/*Page*/
+html					{	}
+.body				{ width:1100px; height:99vh; margin:0 auto; border-style:solid ; background-color:#F2F2F2;}
+.wrapper			{ background-color:#FFFFFF; height:96vh;}
+.footer				{ background-color:#86C6DF; height:3vh;}
+
+/*navigation*/
+.nav				{ margin:0; padding:0; 	}
+.nav ul				{ margin:0; padding:0;	}
+.nav ul li				{ margin:0; padding:0; list-style: none; position:relative; font-size: 14pt; font-weight:bold ;}
+.nav ul li ul li			{ margin:0; padding:0; background-color: #86C6DF;}
+.nav td li				{ margin:0; padding:0; list-style: none; background-color: #86C6DF; position:relative; font-size: 14pt; font-weight:bold ;}
+.nav ul li a 	    		{ text-align:center; color: #ffffff; font-family: "Times New Roman", Times, serif; text-decoration: none ; width: 250px; height:40px; display: block; padding:1px 0 0 0; border-right:2px solid #000000; border-left:2px solid #000000;	}
+
+.nav ul ul				{ position:absolute ; visibility: hidden ; top:22px;	}
+
+.nav ul li:hover ul 		{ visibility:visible; right:0px;}
+
+.nav a:link			{ color: #ffffff;}
+.nav a:visited		{ color: #ffffff;}
+.nav a:hover			{ color: #000000; font-weight: bold; text-decoration:underline; }
+.nav a:active 		{ text-decoration:overline;}
+
+
+/*table*/
+.table				{ border-collapse:collapse;}
+.table th	 		{ background-color: 	#3366CC; color: #ffffff;}
+.table tr				{ text-align:center;}
+.table tr:nth-child(even)	{ background-color: #A9A9A9;}
+.table tr:hover 		{ background-color: 	#8E8684; color: #ffffff; text-align:center;}
+.table tr:hover a 		{ color: #ffffff;}
+.table td			{ font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif; font-size: 14pt;}
+.table a				{ color: #000000}
+
+/*company table*/
+.com				{ border-collapse:collapse;}
+.com td				{ font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif; font-size: 14pt;}
+
+/*iframe*/
+.iframe				{ overflow-y:hidden;}
