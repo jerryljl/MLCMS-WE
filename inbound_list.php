@@ -121,6 +121,7 @@
 				echo "<td>".$vecno."</td>";
 				echo "<td>".$status."</td>";
 				
+				date_default_timezone_set('Asia/Kuala_Lumpur');
 				$date1=date_create(date('Y-m-d'));
 				$date2=date_create($row['in_date']);
 				$diff=date_diff($date1,$date2);
