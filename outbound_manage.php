@@ -65,7 +65,7 @@
 		<tr>
 			<td>Date of outbound (mm-dd-yyyy)</td>
 			<td>:</td>
-			<td><input type="date" name="date" style="width:250px;" min="<?php echo date('Y-m-d') ?>" value="<?php if($outboundid == 0){ echo ""; } else{ echo $row['out_date']; } ?>"></td>
+			<td><input type="date" name="date" style="width:250px;" min="<?php date_default_timezone_set('Asia/Kuala_Lumpur'); echo date('Y-m-d') ?>" value="<?php if($outboundid == 0){ echo ""; } else{ echo $row['out_date']; } ?>"></td>
 		</tr>
 		<tr>
 			<td>Time of outbound</td>
