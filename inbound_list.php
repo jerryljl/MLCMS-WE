@@ -121,6 +121,10 @@
 				echo "<td>".$vecno."</td>";
 				echo "<td>".$status."</td>";
 				
+				/*
+					The following date difference code is obtained from php.net (php.net, n.d).
+					The reference is recorded in the documentation.
+				*/
 				date_default_timezone_set('Asia/Kuala_Lumpur');
 				$date1=date_create(date('Y-m-d'));
 				$date2=date_create($row['in_date']);
